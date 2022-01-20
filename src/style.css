@@ -1,1 +1,53 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: rgba(14, 126, 18);
+}
+
+.pokerCard {
+  margin-top: 20px;
+  width: 400px;
+  height: 570;
+  background-color: white;
+}
+
+.paloSuperior{
+  display: flex;
+  height: 80px;
+  width: inherit;
+  justify-content: flex-start;
+}
+
+.palo{
+    height: inherit;
+    width: 88px;
+    align-self: center;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.cardNumber{
+  height: 400px;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.cardNumberItem{
+    height: 200px;
+    width: 100px;
+    margin-top: 5rem;
+    display: flex;
+    font-size: 5rem;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+.paloInferior{
+  display: flex;
+  height: 80px;
+  width: inherit;
+  justify-content: flex-end;
+}
+
+
